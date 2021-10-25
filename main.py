@@ -14,5 +14,5 @@ def main():
     messages = TextSendMessage(text = "さいきん、アイス食べてる～❔\nおいしーよー")
     line_bot_api.push_message(USER_ID, messages=messages)
 
-if __name__ == __main__:
+if __name__ == "__main__":
     main()
